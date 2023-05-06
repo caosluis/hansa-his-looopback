@@ -1,0 +1,114 @@
+{
+  "name": "hanin_ordenestrabajo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "date_entered": {
+      "type": "date"
+    },
+    "date_modified": {
+      "type": "string"
+    },
+    "modified_user_id": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "deleted": {
+      "type": "string"
+    },
+    "assigned_user_id": {
+      "type": "string"
+    },
+    "fecha_inicio_plan": {
+      "type": "string"
+    },
+    "fecha_inicio_real": {
+      "type": "string"
+    },
+    "fecha_final_plan": {
+      "type": "string"
+    },
+    "fecha_final_real": {
+      "type": "string"
+    },
+    "iddivision_c": {
+      "type": "string"
+    },
+    "idamercado_c": {
+      "type": "string"
+    },
+    "idgrupocliente_c": {
+      "type": "string"
+    },
+    "idregional_c": {
+      "type": "string"
+    },
+    "idregion_c": {
+      "type": "string"
+    },
+    "billing_address_street": {
+      "type": "string"
+    },
+    "billing_address_city": {
+      "type": "string"
+    },
+    "idcuentasap_c": {
+      "type": "string"
+    },
+    "zona_instalacion": {
+      "type": "string"
+    },
+    "telefono_contacto": {
+      "type": "string"
+    },
+    "latitud_plan": {
+      "type": "string"
+    },
+    "latitud_real": {
+      "type": "string"
+    },
+    "longitud_plan": {
+      "type": "string"
+    },
+    "longitud_real": {
+      "type": "string"
+    },
+    "prioridad": {
+      "type": "string"
+    },
+    "estado_c": {
+      "type": "string"
+    },
+    "tiposinstalaciones": {
+      "type": "string"
+    },
+    "tareas": {
+      "type": "string"
+    },
+    "hanin_instalaciones_id": {
+      "type": "string"
+    },
+    "falla_c": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

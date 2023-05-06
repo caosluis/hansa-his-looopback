@@ -1,0 +1,60 @@
+{
+  "name": "hanin_tareas_mapa_tiempo_real",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "TareaID": {
+      "type": "string",
+      "id": true
+    },
+    "status": {
+      "type": "string"
+    },
+    "parent_id": {
+      "type": "string"
+    },
+    "tipotarea_c": {
+      "type": "string"
+    },
+    "fecha_inicio_real_c": {
+      "type": "string"
+    },
+    "fecha_fin_real_c": {
+      "type": "string"
+    },
+    "VisitaID": {
+      "type": "string"
+    },
+    "fecha_inicio_plan": {
+      "type": "string"
+    },
+    "iddivision_c": {
+      "type": "string"
+    },
+    "idregional_c": {
+      "type": "string"
+    },
+    "idamercado_c": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ProyectoID": {
+      "type": "string"
+    },
+    "InstalacionID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

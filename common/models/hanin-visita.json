@@ -1,0 +1,69 @@
+{
+  "name": "hanin_visita",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "date_entered": {
+      "type": "string"
+    },
+    "date_modified": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "deleted": {
+      "type": "string"
+    },
+    "assigned_user_id": {
+      "type": "string"
+    },
+    "fecha_inicio_plan": {
+      "type": "string"
+    },
+    "fecha_final_plan": {
+      "type": "string"
+    },
+    "fecha_inicio_real": {
+      "type": "string"
+    },
+    "fecha_final_real": {
+      "type": "string"
+    },
+    "longitud_plan": {
+      "type": "string"
+    },
+    "latitud_plan": {
+      "type": "string"
+    },
+    "longitud_real": {
+      "type": "string"
+    },
+    "latitud_real": {
+      "type": "string"
+    },
+    "estado_c": {
+      "type": "string"
+    },
+    "fecha_visita_c": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

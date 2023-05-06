@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "accounts": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "tasks_cstm": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "hanin_ordenestrabajo": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "hanin_cuadrilla": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "hanin_visita": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "tasks": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "hanin_visitas_mapa_tiempo_real": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "hanin_tareas_mapa_tiempo_real": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "hanin_supervisor": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "hanin_instalaciones": {
+    "dataSource": "Hansacrm_Qas_Datacom",
+    "public": true
+  },
+  "incidentes-service": {
+    "dataSource": null,
+    "public": true
+  }
+}

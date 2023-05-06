@@ -1,0 +1,54 @@
+{
+  "name": "Visitas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IdVisita": {
+      "type": "string",
+      "id": true
+    },
+    "CodUsuario": {
+      "type": "string"
+    },
+    "Estado": {
+      "type": "string"
+    },
+    "FechaFinPlan": {
+      "type": "string"
+    },
+    "FechaFinReal": {
+      "type": "string"
+    },
+    "FechaInicioPlan": {
+      "type": "string"
+    },
+    "FechaInicioReal": {
+      "type": "string"
+    },
+    "FechaVisita": {
+      "type": "string"
+    },
+    "LatitudReal": {
+      "type": "string"
+    },
+    "LongitudReal": {
+      "type": "string"
+    },
+    "NroOt": {
+      "type": "string"
+    },
+    "Observacion": {
+      "type": "string"
+    },
+    "UsuarioFecha": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

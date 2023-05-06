@@ -1,0 +1,48 @@
+{
+  "name": "tasks_cstm",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_c": {
+      "type": "string",
+      "id": true
+    },
+    "tipotarea_c": {
+      "type": "string"
+    },
+    "montocomprometido_c": {
+      "type": "string"
+    },
+    "currency_id": {
+      "type": "string"
+    },
+    "motivo_mora_c": {
+      "type": "string"
+    },
+    "accion_seguir_c": {
+      "type": "string"
+    },
+    "fecha_inicio_real_c": {
+      "type": "string"
+    },
+    "fecha_fin_real_c": {
+      "type": "string"
+    },
+    "revisado_c": {
+      "type": "string"
+    },
+    "date_end_c": {
+      "type": "string"
+    },
+    "outlook_id_c": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

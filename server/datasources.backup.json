@@ -1,0 +1,33 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "Hansacrm_Qas_Datacom": {
+    "host": "HANNACBDP02",
+    "port": 1433,
+    "url": "",
+    "database": "HANSACRM",
+    "password": "HansaP2021*",
+    "name": "Hansacrm_Qas_Datacom",
+    "user": "usercrm3_qas",
+    "connector": "mssql",
+    "options": {
+      "encrypt": false,
+      "instanceName": "I02"
+    }
+  },
+  "Hansacrm_Prd_Datacom": {
+    "host": "192.168.1.13",
+    "port": 1433,
+    "url": "",
+    "database": "hansacrm",
+    "password": "usermule123",
+    "name": "Hansacrm_Prd_Datacom",
+    "user": "usermule_prd",
+    "connector": "mssql",
+    "options": {
+      "encrypt": false
+    }
+  }
+}

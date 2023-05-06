@@ -1,0 +1,39 @@
+{
+  "name": "Tareas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IdTarea": {
+      "type": "string",
+      "id": true
+    },
+    "Estado": {
+      "type": "string"
+    },
+    "FechaInicioReal": {
+      "type": "string"
+    },
+    "FechaFinReal": {
+      "type": "string"
+    },
+    "IdVisita": {
+      "type": "string"
+    },
+    "Observacion": {
+      "type": "string"
+    },
+    "Servicios": {
+      "type": "string"
+    },
+    "TipoTarea": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

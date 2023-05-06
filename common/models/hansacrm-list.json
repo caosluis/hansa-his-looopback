@@ -1,0 +1,26 @@
+{
+  "name": "hansacrm_list",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ListType": {
+      "type": "string"
+    },
+    "ListId": {
+      "type": "string"
+    },
+    "ID": {
+      "type": "string"
+    },
+    "Value": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

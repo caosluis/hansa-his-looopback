@@ -1,0 +1,120 @@
+{
+  "name": "hanin_visitas_mapa_tiempo_real",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "VisitaID": {
+      "type": "string",
+      "id": true
+    },
+    "assigned_user_id": {
+      "type": "string"
+    },
+    "CodUsuario": {
+      "type": "string"
+    },
+    "SupervisorID": {
+      "type": "string"
+    },
+    "Cuadrilla": {
+      "type": "string"
+    },
+    "zona_instalacion": {
+      "type": "string"
+    },
+    "cliente": {
+      "type": "string"
+    },
+    "billing_address_street": {
+      "type": "string"
+    },
+    "phone_office": {
+      "type": "string"
+    },
+    "Ot": {
+      "type": "string"
+    },
+    "telefono_contacto": {
+      "type": "string"
+    },
+    "DivisionID": {
+      "type": "string"
+    },
+    "RegionID": {
+      "type": "string"
+    },
+    "AmercadoID": {
+      "type": "string"
+    },
+    "idgrupocliente_c": {
+      "type": "string"
+    },
+    "fecha_visita_c": {
+      "type": "string"
+    },
+    "fecha_final_plan": {
+      "type": "string"
+    },
+    "fecha_final_real": {
+      "type": "string"
+    },
+    "fecha_inicio_plan": {
+      "type": "date"
+    },
+    "fecha_inicio_real": {
+      "type": "string"
+    },
+    "Estado": {
+      "type": "string"
+    },
+    "tiposinstalaciones": {
+      "type": "string"
+    },
+    "latitud_plan": {
+      "type": "string"
+    },
+    "longitud_plan": {
+      "type": "string"
+    },
+    "latitud_real": {
+      "type": "string"
+    },
+    "longitud_real": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "InstalacionID": {
+      "type": "string"
+    },
+    "Instalacion": {
+      "type": "string"
+    },
+    "ProyectoID": {
+      "type": "string"
+    },
+    "Proyecto": {
+      "type": "string"
+    },
+    "ProyectoDescripcion": {
+      "type": "string"
+    },
+    "TipoOt": {
+      "type": "string"
+    },
+    "MotivoVisita": {
+      "type": "string"
+    },
+    "OrdenTrabajoID": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

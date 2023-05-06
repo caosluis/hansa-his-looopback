@@ -1,0 +1,114 @@
+{
+  "name": "accounts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "name": {
+      "type": "string"
+    },
+    "date_entered": {
+      "type": "string"
+    },
+    "date_modified": {
+      "type": "string"
+    },
+    "modified_user_id": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "deleted": {
+      "type": "string"
+    },
+    "assigned_user_id": {
+      "type": "string"
+    },
+    "account_type": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "annual_revenue": {
+      "type": "string"
+    },
+    "phone_fax": {
+      "type": "string"
+    },
+    "billing_address_street": {
+      "type": "string"
+    },
+    "billing_address_city": {
+      "type": "string"
+    },
+    "billing_address_state": {
+      "type": "string"
+    },
+    "billing_address_postalcode": {
+      "type": "string"
+    },
+    "billing_address_country": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "string"
+    },
+    "phone_office": {
+      "type": "string"
+    },
+    "phone_alternate": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "ownership": {
+      "type": "string"
+    },
+    "employees": {
+      "type": "string"
+    },
+    "ticker_symbol": {
+      "type": "string"
+    },
+    "shipping_address_street": {
+      "type": "string"
+    },
+    "shipping_address_city": {
+      "type": "string"
+    },
+    "shipping_address_state": {
+      "type": "string"
+    },
+    "shipping_address_postalcode": {
+      "type": "string"
+    },
+    "shipping_address_country": {
+      "type": "string"
+    },
+    "parent_id": {
+      "type": "string"
+    },
+    "sic_code": {
+      "type": "string"
+    },
+    "campaign_id": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

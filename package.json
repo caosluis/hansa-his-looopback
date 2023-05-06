@@ -1,0 +1,39 @@
+{
+  "name": "myloopback",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node --tls-min-v1.0 .",
+    "posttest": "npm run lint && npm audit"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^3.10.0",
+    "loopback": "^3.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^6.2.0",
+    "loopback-connector-mssql": "^3.8.0",
+    "loopback-connector-mysql": "^5.4.2",
+    "loopback-ssl": "^1.0.4",
+    "nodemon": "^2.0.2",
+    "serve-favicon": "^2.0.1",
+    "socket.io": "^4.0.0",
+    "socketio-auth": "^0.1.1",
+    "strong-error-handler": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-loopback": "^8.0.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "myloopback"
+}
